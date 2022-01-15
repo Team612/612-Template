@@ -9,9 +9,9 @@ name: Java CI with Gradle
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, feature-template ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, feature-template ]
 
 # If your gradlew file is contained in a different subfolder, uncomment the following 3 lines 
 # and add whatever folder it's contained in as "working-directory:"

@@ -5,7 +5,7 @@ Captains: use this to start new projects and update to your necessities.
 - main branch along with its feature branches are protected. **Note:** must make branch protection rules for each feature branch, meaning experimental branches get made and protected before actual code gets pushed
 
 # Settings
-- Options - Under the Merge button heading, unchecked "Allow rebase merging", checked "Allow auto-merge" (see notes on this below), checked "Automatically delete head branches" (can restore if necessary for up to 30-Days)
+- Options - Under the Merge button heading, unchecked "Allow rebase merging", checked "Allow auto-merge" (member can select "Enable auto-merge" after creating a pr/when waiting for approval), checked "Automatically delete head branches" (can restore if necessary for up to 30-Days)
 - Branches - Created a branch protection rule with main branch as Branch name pattern with these checked: "Require a pull request before merging", "Require approvals", "Require review from Code Owners", "Require status checks to pass before merging", "Require branches to be up to date before merging", "Require linear history", and "Include administrators"
 
 # Github Actions

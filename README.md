@@ -9,3 +9,9 @@ In Settings:
 
 # Github Actions
 - Created a new "Java CI with Gradle" action file. Under main branch, the ```branches:``` option reads ```[main]``` only but under the feature-template branch, the ```branches:``` option reads ```[main, feature-template].``` 
+
+# Project Template
+- Created a new automated kanban project.
+- To-do setup: Move issues here when "Newly added"
+- In progress setup: Move issues here when "Reopened", Move pull requests here when "Newly opened", "Reopened" and "Pending approval by reviewer"
+- Done setup: Move issues here when "Closed", Move pull requests here when "Merged"

@@ -10,6 +10,7 @@ In Settings:
 # Github Actions
 - Created a new "Java CI with Gradle" action file. Under main branch, the ```branches:``` option reads ```[main]``` only but under the feature-template branch, the ```branches:``` option reads ```[main, feature-template].``` 
 - Created project-setup.yml file for project automation. **Note:** authors must replace ```project``` url with new repository's project's url.
+- **Test Cases:** Example test case created in src/test/java/TestTemplate.java. Future test cases that check actual robot code logic should be placed in ```java``` folder here.
 
 # Project Template
 - Created a new automated kanban project.

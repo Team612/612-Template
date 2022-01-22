@@ -9,7 +9,7 @@ In Settings:
 
 # Github Actions
 - Created a new "Java CI with Gradle" action file. Under main branch, the ```branches:``` option reads ```[main]``` only but under the feature-template branch, the ```branches:``` option reads ```[main, feature-template].``` 
-- Created project-setup.yml file for project automation. Note: authors must replace ```project``` url with new repository's project's url.
+- Created project-setup.yml file for project automation. **Note:** authors must replace ```project``` url with new repository's project's url.
 
 # Project Template
 - Created a new automated kanban project.

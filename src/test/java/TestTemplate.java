@@ -7,6 +7,6 @@ public class TestTemplate{
         int a = 1;
         int b = 1;
         int c = a+b;
-        assertEquals(3, c);
+        assertEquals(2, c);
     }
 }

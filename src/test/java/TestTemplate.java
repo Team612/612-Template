@@ -1,7 +1,7 @@
 import static org.junit.Assert.*;
 import org.junit.*;
 
-public class DummyTest{
+public class TestTemplate{
     @Test
     public void shouldDoMath(){
         int a = 1;

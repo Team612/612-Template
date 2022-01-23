@@ -18,3 +18,6 @@ Captains: use this to start new projects and update to your necessities.
 - To-do setup: Move issues here when "Newly added"
 - In progress setup: Move issues here when "Reopened", Move pull requests here when "Newly opened", "Reopened" and "Pending approval by reviewer"
 - Done setup: Move issues here when "Closed", Move pull requests here when "Merged"
+
+# Webhooks
+- Discord: under server settings, navigated to the "Integrations" tab. Created a new webhook and copied the URL. Under repository settings, navigated to "Webhooks" tab, created a new webhook. Copied webhook URL to "payload URL" and appended "/github" to the end of the URL. Under "Content Type" dropdown, switch to "application/json". Requested that the repository sends all events to webhook. Created GitHub webhook. 
